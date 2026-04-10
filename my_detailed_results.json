@@ -1,0 +1,227 @@
+{
+  "strategy": "Recursive-700-top5",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_config": {
+    "chunk_size": 700,
+    "overlap": 0
+  },
+  "num_queries": 5,
+  "num_chunks": 727,
+  "query_results": [
+    {
+      "query_id": 1,
+      "query_text": "Trong 'Anh đừng lỗi hẹn', tại sao Thuý Hằng lại ly dị chồng và nguyên nhân nào dẫn đến bệnh tim của cô?",
+      "gold_answer": "Thuý Hằng ly dị vì chồng cô là người tẻ nhạt, tàn nhẫn, chỉ biết hưởng thụ và kiếm những đồng tiền khiến cô luôn cảm thấy lo âu. Chính những lo âu triền miên về những đồng tiền đó là nguyên nhân phát sinh bệnh tim của cô.",
+      "source_file": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa_chunk9",
+          "score": 0.7754,
+          "source": "data/Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+          "preview": "Khi ra toà, Hằng được ở lại căn nhà cũ - tài sản phân chia theo luật định.Còn tôi?Tôi là một gã đàn ông vừa bước qua cái tuổi bốn mươi, tôi đã từng có"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa_chunk3",
+          "score": 0.7694,
+          "source": "data/Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+          "preview": "Còn thêm cáI bệnh suy tim - Hằng khẽ mỉm cười - nụ cười làm cho nước mắt ứa ra.Từ lúc tôI đến, Hằng vẫn nằm, rõ ràng là cô không muốn ngồi dậy và cũng"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa_chunk8",
+          "score": 0.7691,
+          "source": "data/Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+          "preview": "Chỉ đến khi nằm lên đi-văng, vắt tay lên trán tôi mới thấy hơi lưỡng lự: sự thăm viếng của tôi - đúng hơn là một cuộc hẹn hò - có cái gì đấy thầm lén "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa_chunk18",
+          "score": 0.7671,
+          "source": "data/Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+          "preview": "Lúc ấy, cháu gái đã hiểu chuyện gì đã xảy ra, nó vật vã, giãy giụa như chính mẹ cháu vừa đột ngột qua đời.***Tiết thanh minh năm nay cũng là lần thứ b"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa_chunk4",
+          "score": 0.7579,
+          "source": "data/Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+          "preview": "Tôi muốn nâng đầu Hằng dậy, ấp vào ngực mình, vỗ về an ủi như một người cha, như một người anh và hình như, có cả tình cảm của một người chồng.Nhưng, "
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "query_text": "Nhân vật 'tôi' gặp người con trai trong truyện qua phương tiện nào?",
+      "gold_answer": "Nhân vật 'tôi' gặp anh qua blog — tình cờ vào blog của anh khi tha thẩn trên mạng, đọc những dòng nhật ký rồi để lại comment 'Xin cám ơn anh', từ đó trở thành bạn và dần thân thiết qua email và điện thoại.",
+      "source_file": "48 giờ yêu nhau - Hà Thanh Phúc.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk12",
+          "score": 0.677,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "Con tim tôi đập gấp gáp, vội vàng. Anh dừng lại, kê sát vào mặt, nắm lấy tay tôi và bảo: “Chúng ta hãy yêu nhau, nha nhóc!”. Tôi nhìn anh, rồi lại khẽ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk19",
+          "score": 0.6578,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "Có những người muốn đến với tôi, nhưng tôi không dám đến lại với họ. Tôi nghi ngờ tất cả, liệu mình thử yêu lần nữa, có thành công không hay lại tiếp "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk285",
+          "score": 0.6406,
+          "source": "data/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "– Con gấp mà nội, sợ khách chờ lâu. Bà Tâm Khuê rầy rà: – Gấp cũng không được hấp tấp. Như con lật đật số chẳng sang giàu được đâu. Rồi bà còn dẫn câu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Ánh Mắt Yêu Thương - Nguyễn Thị Phi Oanh_chunk163",
+          "score": 0.6352,
+          "source": "data/Ánh Mắt Yêu Thương - Nguyễn Thị Phi Oanh.txt",
+          "preview": "Con gặp nó chưa ? - Dạ chưa. Trước sau gì cũng gặp mà , để anh ấy tiếp khách đã vú. Con lên đó làm gì , để vú ở đây cực một mình sao ? Vừa dọn đồ ăn l"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Ánh Mắt Yêu Thương - Nguyễn Thị Phi Oanh_chunk253",
+          "score": 0.628,
+          "source": "data/Ánh Mắt Yêu Thương - Nguyễn Thị Phi Oanh.txt",
+          "preview": "Cô Quế nhìn ông bước vào phòng : - Sao, gặp chuyện bực mình à ? - Mỗi lúc đến gặp cô là y như độc giả tìm đến nhà tâm lý học để gở rối tơ lòng vậy. - "
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "query_text": "Hai nhân vật đã ở bên nhau bao lâu trước khi chia tay tại sân bay?",
+      "gold_answer": "Hai người ở bên nhau đúng 48 tiếng (hai ngày) — từ lúc gặp nhau tại quán cà phê trên đường Nguyễn Trãi vào thứ Bảy cho đến khi anh ra sân bay về Nhật vào gần 1 giờ sáng ngày thứ Hai.",
+      "source_file": "48 giờ yêu nhau - Hà Thanh Phúc.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk18",
+          "score": 0.6721,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "Tôi thở nhẹ, nhìn rất lung ra ngoài đường. Những chiếc xe hối hả lao đi... * Những tháng ngày dài lại nối tiếp nhau. Tôi vẫn sợ, những nỗi sợ mơ hồ cố"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk13",
+          "score": 0.661,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "Nhưng tôi biết, mình đã sẵn sàng cho một tình yêu mới... Ngày hôm sau, anh bận việc với công ty suốt cả buổi sáng. Đến chiều, anh gặp tôi, cả hai đều "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk12",
+          "score": 0.6399,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "Con tim tôi đập gấp gáp, vội vàng. Anh dừng lại, kê sát vào mặt, nắm lấy tay tôi và bảo: “Chúng ta hãy yêu nhau, nha nhóc!”. Tôi nhìn anh, rồi lại khẽ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk10",
+          "score": 0.6292,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "“Ừ, anh gọi là bé vậy!”. Nhiều lúc tôi bông đùa: “Anh có nghĩ mình sẽ yêu lần nữa?”. Anh đáp lạnh lùng: “Không bao giờ”. Rồi tôi tự hỏi mình, mình sẽ "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "48 giờ yêu nhau - Hà Thanh Phúc_chunk2",
+          "score": 0.6263,
+          "source": "data/48 giờ yêu nhau - Hà Thanh Phúc.txt",
+          "preview": "Những giọt mưa nghiêng nghiêng tựa như muôn vàn nước mắt của thế gian đang rơi xuống. Buồn. Gió lạnh từng cơn thổi qua khung cửa. Ngoài đường, những d"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "query_text": "Vì sao Mẫn Huy bỏ nhà ra đi?",
+      "gold_answer": "Vì Mẫn Huy bị gia đình ép cưới Đan Uyên và ràng buộc phải cưới mới được làm giám đốc công ty. Anh không muốn sống lệ thuộc nên rời nhà, chấp nhận tay trắng để theo đuổi đam mê tranh cát.",
+      "source_file": "Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk125",
+          "score": 0.6717,
+          "source": "data/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "– Tôi không thích có người ngồi nhìn từng động tác của tôi khi làm việc. Mất cả cảm hứng sao mà làm việc hở cô. Vờ cảm thông, Đan Uyên bảo: – Em biết!"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk327",
+          "score": 0.6699,
+          "source": "data/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "Mẫn Huy rơi vào tình trạng hụt hẫng chơi vơi. Tình cảm trống vắng. Công việc mệt nhoài. Căng thẳng, stress, Mẫn Huy muốn có một chốn bình yên thư giãn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk336",
+          "score": 0.657,
+          "source": "data/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "– Ồ! Sao em nói vậy? Anh đi luôn thật đó. – Anh nói anh đi ăn rồi trở về. Anh đi nhà hàng, quán bar, phòng trà, vũ trường, công viên, khách sạn. Có tr"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk270",
+          "score": 0.6559,
+          "source": "data/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "Ngồi vào văn phòng Mẫn Huy giải quyết bao nhiêu việc của giám đốc. Một lát sau cô thư ký Bội Hà mang hồ sơ vào. Bội Hà đi làm mà chưng diện hơn đi đạ "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk209",
+          "score": 0.6542,
+          "source": "data/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "Mẫn Huy nhìn Bội Hà. Cô thư ký của công ty khá xinh đẹp, duyên dáng. Bộ váy áo thanh lịch chứng tỏ bội Hà rất sành điệu chưng diện. Tuy nhiên, Mẫn Huy"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "query_text": "Tại sao nhân vật lại quyết định vượt biển?",
+      "gold_answer": "Thực chất nhân vật không hề 'vượt biển' ra đại dương. Đây là ấn dụ cho việc 'vượt cạn' (sinh con). Nhân vật nữ phải vào viện sinh một bé trai (cu Vũ) trong một ca sinh khó nhưng cuối cùng đã mẹ tròn con vuông.",
+      "source_file": "Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng_chunk0",
+          "score": 0.6549,
+          "source": "data/Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng.txt",
+          "preview": " Áo Vàng Anh ơi, cùng nhau ta vượt biển...."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng_chunk13",
+          "score": 0.6293,
+          "source": "data/Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng.txt",
+          "preview": "Mục lục Anh ơi, cùng nhau ta vượt biển.... Anh ơi, cùng nhau ta vượt biển.... Áo VàngChào mừng các bạn đón đọc đầu sách từ dự án sách cho thiết bị di "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh đừng lỗi hẹn - Vũ Đức Nghĩa_chunk0",
+          "score": 0.6078,
+          "source": "data/Anh đừng lỗi hẹn - Vũ Đức Nghĩa.txt",
+          "preview": " Vũ Đức Nghĩa Anh đừng lỗi hẹn"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng_chunk12",
+          "score": 0.6024,
+          "source": "data/Anh ơi, cùng nhau ta vượt biển.... - Áo Vàng.txt",
+          "preview": "bác sĩ phải dùng kềm kẹp ra....chỉ chậm có mấy giây thôi mà mặt Vũ xanh lè, nên lúc ra được, bác sĩ chụp ngay thằng nhỏ, cho liền oxygene .Y tá chạy v"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Ánh Mắt Yêu Thương - Nguyễn Thị Phi Oanh_chunk301",
+          "score": 0.5896,
+          "source": "data/Ánh Mắt Yêu Thương - Nguyễn Thị Phi Oanh.txt",
+          "preview": "Nụ hôn nồng nàng cho nhau như hứa hẹn sự gắn bó miên viễn. Mong rằng nắng hồng trải rộng đón chân hai người sau cơn mưa dài buốt giá. &quot;Anh cho em"
+        }
+      ]
+    }
+  ]
+}

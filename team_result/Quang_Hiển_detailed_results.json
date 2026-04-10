@@ -1,0 +1,227 @@
+{
+  "strategy": "FixedSize-512-overlap30-top5",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_config": {
+    "chunk_size": 512,
+    "overlap": 153
+  },
+  "num_queries": 5,
+  "num_chunks": 659,
+  "query_results": [
+    {
+      "query_id": 1,
+      "query_text": "Trong \"Anh đừng lỗi hẹn\", tại sao Thuý Hằng lại ly dị chồng và nguyên nhân nào dẫn đến bệnh tim của cô?",
+      "gold_answer": "Thuý Hằng ly dị vì chồng cô là người tẻ nhạt, tàn nhẫn, chỉ biết hưởng thụ và kiếm những đồng tiền khiến cô luôn cảm thấy lo âu. Chính những lo âu triền miên về những đồng tiền đó là nguyên nhân phát sinh bệnh tim của cô.",
+      "source_file": "Anh đừng lỗi hẹn - Nguyễn Nhật Ánh.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk404",
+          "score": 0.7644,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "! Em biết là anh ở thành phố mà sao không đi tìm anh? – Anh ở thành phố nhưng em đâu biết địa chỉ. Mà nếu biết em cũng chẳng tìm. Nhờ anh giúp đỡ ư? E"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk622",
+          "score": 0.7612,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "hiều cảm hứng sáng tạo mẫu mới. Rón rén bước tới, Mẫn Huy ôm chầm lấy Hồng Cát, giọng âu yếm: – Ôi! Bà xã ở đây mà anh đi tìm muốn chết. Hồng Cát ngún"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk202",
+          "score": 0.758,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "o hắn tự do nghe chưa. Đan Uyên trả lời cho Hoàng Lạc yên tâm: – Anh ta có người, yêu rồi, anh khỏi lo. Hoàng Lạc vặn lại: – Rủi anh ta tưởng em là ng"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk434",
+          "score": 0.757,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "biết trả lời sao đây. Những lời ngỏ êm ái của Mẫn Huy vang lên như lời thì thầm trong cơn mơ. Bồn chồn mong ước gặp lại Mẫn Huy. Đâu dám mơ nghe được "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk494",
+          "score": 0.7533,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": " nhất chẳng việc gì tôi phải nghe. – Anh không nghe nên chẳng biết là dư luận đang tiếc nuối cho anh. Mẫn Huy dài giọng chế nhạo Bội Hà: – Có vẻ như c"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "query_text": "Nhân vật \"tôi\" gặp người con trai trong truyện qua phương tiện nào?",
+      "gold_answer": "Nhân vật \"tôi\" gặp anh qua blog — tình cờ vào blog của anh khi tha thẩn trên mạng, đọc những dòng nhật ký rồi để lại comment \"Xin cám ơn anh\", từ đó trở thành bạn và dần thân thiết qua email và điện thoại.",
+      "source_file": "Anh đừng lỗi hẹn - Nguyễn Nhật Ánh.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk517",
+          "score": 0.6486,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": " đâu thể từ tốn được hở nội. Bà Tâm Khuê vẫn giữ quan niệm: – Gấp gì gấp cũng phải khoan thai. Con nên nhớ khoan thai, là nét duyên dáng của phụ nữ đó"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk449",
+          "score": 0.6392,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "không nội? Nhưng việc đó tính sau. Trước mắt là cưới gấp. Bà Tâm Khuê mắng yêu: – Cái thằng! Bây giờ con gấp hơn nội rồi phải không? Mẫn Huy gãi đầu: "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk624",
+          "score": 0.633,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "Đâu! Có vướng tóc đâu. Mẫn Huy buông câu văn hoa tình tứ: – Tóc em đã vướng vào anh đã cột chặt hồn anh suốt đời rồi. Rồi Mẫn Huy cất tiếng hát nghêu "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk516",
+          "score": 0.6326,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": " phải từ tốn, có đâu mà chạy ào ào vậy. Hồng Cát phân bua: – Con gấp mà nội, sợ khách chờ lâu. Bà Tâm Khuê rầy rà: – Gấp cũng không được hấp tấp. Như "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk179",
+          "score": 0.6293,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": " Mẹ bệnh nên về vội vã. Đan Uyên buông gọn: – Thì anh lên Đồng Nai lấy về làm hoàn tất. – Tôi sẽ không làm nữa! Đan Uyên nghiêm giọng: – Không được nu"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "query_text": "Hai nhân vật đã ở bên nhau bao lâu trước khi chia tay tại sân bay?",
+      "gold_answer": "Hai người ở bên nhau đúng 48 tiếng (hai ngày) — từ lúc gặp nhau tại quán cà phê trên đường Nguyễn Trãi vào thứ Bảy cho đến khi anh ra sân bay về Nhật vào gần 1 giờ sáng ngày thứ Hai.",
+      "source_file": "Anh đừng lỗi hẹn - Nguyễn Nhật Ánh.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk40",
+          "score": 0.7064,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "từ chối: – Cậu bày vẽ! Cứ giữ lấy mà dùng! – Dạ, cháu còn ạ. Bác cứ dùng thử đồ hộp. – Tôi ở đây cứ tha hồ dùng đồ biển. Vừa lúc đó, Hồng Cát bưng mâm"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk574",
+          "score": 0.7025,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "òng bảo: – Con mong nội luôn khỏe mạnh. – Ừ! Rồi bà lại ngủ thiếp đi. Hồng Cát thấy ngày thường bà Tâm Khuê rất khỏe. Thỉnh thoảng có hơi cao huyết áp"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk573",
+          "score": 0.6904,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "ủi bà. Chăm sóc miếng ăn giấc ngủ cho bà thật chu đáo. Khi bà thức giấc thì Hồng Cát xoa bóp tay chân bà. Con xin lỗi vì đã làm cho nội bị bệnh. Phải "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk524",
+          "score": 0.6852,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "i. – Chẳng lẽ Hồng Cát lại như thế? Bà Tâm Khuê phật ý: – Con cho là bà nội nói oan, nói thêm cho nó à? Mẫn Huy nhẹ giọng thanh minh: – Con không có ý"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk507",
+          "score": 0.6852,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "năng không ý tứ, đi đứng chẳng khoan thai sang trọng khiến bà Tâm Khuê không hài lòng. Là một cô gái miền biển, Hồng Cát nói năng mộc mạc, tính tình p"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "query_text": "Vì sao Mẫn Huy bỏ nhà ra đi?",
+      "gold_answer": "Vì Mẫn Huy bị gia đình ép cưới Đan Uyên và ràng buộc phải cưới mới được làm giám đốc công ty. Anh không muốn sống lệ thuộc nên rời nhà, chấp nhận tay trắng để theo đuổi đam mê tranh cát.",
+      "source_file": "Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk31",
+          "score": 0.6895,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "o nhau, không biết sẽ ra sao? Giọng Mẫn Huy tỉnh rụi: – Thì bị ăn đòn. Đôi môi màu san hô đỏ chu lên: – Xí! Làm gì có? Mẫn Huy tình bơ giải thích tỉnh"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk303",
+          "score": 0.6853,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "thì đến tôi chết. Mẫn Huy nhẹ giọng an ủi Đan Uyên: – Không đâu. Cô vẫn còn khỏe mạnh cô vượt qua căn bệnh mà! Đan Uyên buông gọn: – Tôi vượt qua được"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk180",
+          "score": 0.6833,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "sân nhà Mẫn Huy rực rỡ với các loài hoa. Hương hoa bay lan tỏa trong gió chiều. Hai người ngồi xuống ghế đá. Đan Uyên cất tiếng trước. – Em không ngờ "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk272",
+          "score": 0.6829,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "nh. Anh cũng không lạm dụng tư cách làm chồng với Đan Uyên. Tất cả đều may mắn với Mẫn Huy. Anh đã thoát được một tai họa khủng khiếp mà Đan Uyên đã v"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk423",
+          "score": 0.6785,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "ời đấy! – Ghê vậy sao? – Không ghê đâu. Mẫn Huy trả lời rồi phán: – Cho em năm phút chuẩn bị. Hồng Cát phản đối: – Em làm gì với năm phút ít ỏi của an"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "query_text": "Tại sao nhân vật quyết vượt biển?",
+      "gold_answer": "Thực chất nhân vật không hề \"vượt biển\" ra đại dương. Đây là ấn dụ cho việc \"vượt cạn\" (sinh con). Nhân vật nữ phải vào viện sinh một bé trai (cu Vũ) trong một ca sinh khó nhưng cuối cùng đã mẹ tròn con vuông.",
+      "source_file": "Vượt Biển - Nguyễn Nhật Ánh.txt",
+      "retrieved_chunks": [
+        {
+          "rank": 1,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk417",
+          "score": 0.5184,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "Vắng cánh buồm một chút đã cô đơn  Gió đâu phải là roi mà vách núi lại mòn Anh đâu phải là chiều mà nhuộm em đến tím”. Có phải anh đã nhuộm Hồng Cát t"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk425",
+          "score": 0.4769,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "nh nha? – Em tài hèn sức mọn có biết gì phụ anh. – Tài hèn sức mọn mà vẽ họa tiết trang trí nội thất đẹp quá chừng. – Cũng do em học tập và bắt chước."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk418",
+          "score": 0.4764,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "g hóa thiên đường. Thế sao vẫn còn ngần ngại? Thế sao không cho Mẫn Huy đưa về, không muốn để cho anh biết căn nhà trọ? Thế sao buồn vu vơ? Dường như "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk416",
+          "score": 0.4747,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "m nay ngày sẽ dài lê thê với Hồng Cát đây. Hồng Cát thả hồn theo tiếng hát chơi vơi. Nhớ biển quê nhà. Nhớ những ngày gần bên anh. Thời gian ngắn ngủi"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Anh Sẽ Đến - Song Mai _ Song Châu_chunk364",
+          "score": 0.4745,
+          "source": "/home/quanghien/qhlab/AI20K059-HoQuangHien-Day07/hqh_data/extracted/Anh Sẽ Đến - Song Mai _ Song Châu.txt",
+          "preview": "ng nhìn thấy Hồng Cát đến vọc cát biết bao. Mong nhìn thấy em đem đến cho anh mớ rau rừng, con ốc biển. Khao khát đến cháy lòng được nhìn thấy ánh mắt"
+        }
+      ]
+    }
+  ]
+}
